@@ -126,7 +126,10 @@ figure {
   }
 }
 .fh5co-projects-feed .fh5co-project > a {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
   text-align: center;
 }
 .fh5co-projects-feed .fh5co-project > a img {
