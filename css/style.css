@@ -118,7 +118,7 @@ figure {
 .fh5co-projects-feed .fh5co-project {
   float: left;
   margin: 20px 20px 20px;
-  width: 290px;
+  width: 300px;
 }
 @media screen and (max-width: 480px) {
   .fh5co-projects-feed .fh5co-project {
@@ -133,6 +133,8 @@ figure {
   margin-bottom: 30px;
   object-fit: cover;
   width: 100%;
+  max-height: 350px;
+  border-radius: 5px;
 }
 .fh5co-projects-feed .fh5co-project > a h2 {
   font-size: 14px;
@@ -266,6 +268,7 @@ figure {
   -moz-box-shadow: 0px 0px 8px 0px rgb(41 87 121 / 51%);
   box-shadow: 0px 0px 8px 0px rgb(41 87 121 / 51%);
   padding: 10px;
+  border-radius: 5px;
 }
 
 #fh5co-header nav ul li a {
