@@ -107,7 +107,6 @@ figure {
   outline: none;
 }
 #fh5co-header nav ul li.active a {
-  text-decoration: line-through !important;
   color: black !important;
 }
 
