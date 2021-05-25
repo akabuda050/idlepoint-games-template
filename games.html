@@ -83,12 +83,7 @@
 
 		<div class="container-fluid pt70 pb70">
 			<div id="fh5co-projects-feed" class="fh5co-projects-feed clearfix masonry">
-				<div class="fh5co-project masonry-brick">
-					<a href="games/2048">
-						<img src="images/2048.png" alt="2048 game">
-						<h2>2048</h2>
-					</a>
-				</div>
+				{{ games_loop }}
 			
 			</div>
 			<!--END .fh5co-projects-feed-->
@@ -109,12 +104,13 @@
 		</footer>
 		<!-- END #fh5co-footer -->
 		
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- Bootstrap -->
 	<script src="js/bootstrap.min.js"></script>
-	<!-- masonry -->
-	<script src="js/jquery.masonry.min.js"></script>
+
 	<!-- MAIN JS -->
 	<script src="js/main.js"></script>
 
