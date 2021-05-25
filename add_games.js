@@ -13,7 +13,7 @@ function renderTemplate(game_name, img_template) {
 function getGames() {
   let dirs = fs.readdirSync('./games');
   console.log(dirs);
-  let games_file = fs.readFileSync('./games.html', 'utf-8');
+  let games_file = fs.readFileSync('./games/index.html', 'utf-8');
   
   let games = '';
   dirs.forEach((dir) => {
