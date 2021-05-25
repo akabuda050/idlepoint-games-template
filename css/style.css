@@ -277,6 +277,7 @@ figure {
 
 .fh5co-projects-feed {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
